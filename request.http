@@ -1,0 +1,29 @@
+POST http://localhost:5000/posts
+Content-Type: application/json
+
+{
+  "title": "React",
+  "description": "React",
+  "url": "react.com",
+  "status": "TO LEARN"
+}
+
+###
+
+GET http://localhost:5000/posts
+
+###
+
+PUT http://localhost:5000/posts/657703881194ca1264b898bc
+Content-Type: application/json
+
+{
+  "title": "Vue",
+  "description": "VUEEEEE",
+  "url": "https://vuejs.org",
+  "status": "LEARNING"
+}
+
+###
+
+DELETE http://localhost:5000/posts/657703881194ca1264b898bc
